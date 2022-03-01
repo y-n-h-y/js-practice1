@@ -4,12 +4,35 @@
   box-sizing: border-box;
 }
 
-.box1 {
-  // display: none;
-  background-color: #ff0000;
-  width: 200px;
-  height: 200px;
-  &.ext {
-    border-radius: 3px solid #000000;
+ul {
+  list-style: none;
+}
+.box {
+  display: flex;
+  .box1 {
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    // float: left;
   }
+
+  .bg1 {
+    background-color: #ffaaaa;
+  }
+
+  .bg2 {
+    background-color: #ffbbbb;
+  }
+
+  .bg3 {
+    background-color: #ffcccc;
+  }
+
+  .bg4 {
+    background-color: #ffdddd;
+  }
+}
+
+.click {
+  padding-top: 100px;
 }

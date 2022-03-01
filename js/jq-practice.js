@@ -20,11 +20,23 @@
 //   });
 // });
 
+// $(function () {
+//   $('.box1').on('click', function () {
+//     $('.box1').addClass('ext');
+//   });
+//   $('.box1').mouseout(function () {
+//     $('.box1').removeClass('ext');
+//   });
+// });
+
 $(function () {
   $('.box1').on('click', function () {
-    $('.box1').addClass('ext');
+    $(this).slideUp();
   });
-  $('.box1').mouseout(function () {
-    $('.box1').removeClass('ext');
+});
+
+$(function () {
+  $('button').on('click', function () {
+    $('ul').children().css('color', 'red');
   });
 });
