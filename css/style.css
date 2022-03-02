@@ -8,14 +8,11 @@ ul {
   list-style: none;
 }
 
-.box {
-  display: flex;
-}
-
 .box .box1 {
   background-color: #ff0000;
-  width: 200px;
+  width: 80%;
   height: 200px;
+  margin: 50px auto;
 }
 
 .box .bg1 {
@@ -34,6 +31,13 @@ ul {
   background-color: #ffdddd;
 }
 
-.click {
-  padding-top: 100px;
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#back a .fa-circle-arrow-up {
+  font-size: 2rem;
+  color: #830000;
 }
